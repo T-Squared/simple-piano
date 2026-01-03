@@ -568,6 +568,17 @@ export default function App() {
         </button>
       )}
 
+      {/* FOOTER - COPYRIGHT & CONTACT */}
+      <footer className="mt-12 mb-4 text-center text-slate-400 text-xs py-4 border-t border-slate-200 w-full max-w-xl">
+        <p>© {new Date().getFullYear()} Bhagyesh Phanse. All rights reserved.</p>
+        <p className="mt-1">
+            For inquiries: <a href="mailto:bhagyesh@phanse.org" className="hover:text-slate-600 underline">Contact Us</a>
+        </p>
+        <p className="mt-2 text-slate-300 text-[10px]">
+            This application is for personal educational use only. Unauthorized reproduction or redistribution is prohibited.
+        </p>
+      </footer>
+
     </div>
   );
 }
